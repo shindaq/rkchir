@@ -1,0 +1,44 @@
+.container {
+    max-width: 1280px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8125em;
+    gap: 0.125em !important;
+}
+
+.button {
+    height: 100% !important;
+    padding: 0.5em !important;
+}
+
+.column {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+}
+
+.button-text {
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+}
+
+.font {
+    @media screen and (max-width:768px) {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+}

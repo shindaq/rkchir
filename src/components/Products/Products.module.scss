@@ -1,0 +1,24 @@
+.products {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2em;
+    gap: 1em;
+
+}
+
+.product {
+    max-width: calc((100%/3) - 1em);
+    width: 100%;
+    @media screen and (max-width:768px) {
+        max-width: calc((100%/2) - 1em);
+    }
+    @media screen and (max-width:576px) {
+        max-width: calc((100%) - 1em);
+    }
+}

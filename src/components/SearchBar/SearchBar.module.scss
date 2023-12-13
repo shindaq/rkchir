@@ -1,0 +1,9 @@
+.input {
+    border: 1.5px solid var(--ep-color-primary) !important; 
+}
+
+.button {
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+}

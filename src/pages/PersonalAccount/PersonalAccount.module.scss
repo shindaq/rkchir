@@ -1,0 +1,14 @@
+.container {
+    justify-content: space-between;
+    display: flex;
+    width: 256px;
+    padding: 1em;
+    margin: auto;
+    max-width: calc((100%/3) - 1em);
+    @media screen and (max-width:768px) {
+            max-width: calc((100%/2) - 1em);
+    }
+    @media screen and (max-width:576px) {
+            max-width: calc((100%) - 1em);
+    }
+}
