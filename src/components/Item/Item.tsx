@@ -1,8 +1,7 @@
-import { Button, Dialog, Expand, Island, Text } from "@adev/ui-kit";
+import { Button, Expand, Island, Text } from "@adev/ui-kit";
 import { Product } from "../../models/product";
 import style from "./Item.module.scss";
 import { SupermarketTrolleyMIcon } from "@alfalab/icons-glyph/SupermarketTrolleyMIcon";
-import { useState } from "react";
 import React from "react";
 
 interface ItemProps {

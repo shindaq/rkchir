@@ -2,9 +2,7 @@ import { Button, Expand, Input, Island } from "@adev/ui-kit";
 import { Navbar } from "../../components/Navbar/Navbar";
 import style from "./Authorization.module.scss";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import React from "react";
-import { Contacts } from "../../components/Contacts/Contacts";
+import { useNavigate } from "react-router-dom";
 
 interface AuthorizationForm {
   name: string;
@@ -45,7 +43,6 @@ export const Authorization = () => {
           </Button>
         </form>
       </Island>
-      <Contacts></Contacts>
     </>
   );
 };
