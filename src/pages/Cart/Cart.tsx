@@ -18,7 +18,6 @@ export const Cart = () => {
           <Text>Оплатить</Text>
         </Button>
       </Island>
-      <Contacts></Contacts>
     </>
   );
 };

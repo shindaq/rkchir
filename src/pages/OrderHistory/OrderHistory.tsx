@@ -14,7 +14,6 @@ export const OrderHistory = () => {
         <Text>Здесь будут отображаться ваши заказы.</Text>
         <div></div>
       </Island>
-      <Contacts></Contacts>
     </>
   );
 };

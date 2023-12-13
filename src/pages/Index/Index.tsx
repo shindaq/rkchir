@@ -7,7 +7,6 @@ export const Index = () => {
     <>
       <Navbar />
       <Products />
-      <Contacts />
     </>
   );
 };
