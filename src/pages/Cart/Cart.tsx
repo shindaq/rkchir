@@ -1,7 +1,6 @@
 import { Button, Island, Text } from "@adev/ui-kit";
 import { Navbar } from "../../components/Navbar/Navbar";
 import style from "./Cart.module.scss";
-import { Contacts } from "../../components/Contacts/Contacts";
 
 export const Cart = () => {
   return (
