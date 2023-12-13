@@ -1,4 +1,4 @@
-import { Button, Expand, Island, Text } from "@adev/ui-kit";
+import { Button, Island, Text } from "@adev/ui-kit";
 import { Navbar } from "../../components/Navbar/Navbar";
 import style from "./Cart.module.scss";
 

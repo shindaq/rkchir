@@ -1,4 +1,4 @@
-import { Button, Island, Text } from "@adev/ui-kit";
+import { Island, Text } from "@adev/ui-kit";
 import { Navbar } from "../../components/Navbar/Navbar";
 import style from "./OrderHistory.module.scss";
 

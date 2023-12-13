@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./global.scss";
 import { Index } from "./pages/Index/Index";
 import { Authorization } from "./pages/Authorization/Authorization";
@@ -8,7 +8,7 @@ import { PersonalAccount } from "./pages/PersonalAccount/PersonalAccount";
 import { Cart } from "./pages/Cart/Cart";
 import { OrderHistory } from "./pages/OrderHistory/OrderHistory";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Index />,

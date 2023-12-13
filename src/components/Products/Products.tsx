@@ -1,6 +1,6 @@
-import { Product } from "../../models/product";
 import { Item } from "../Item/Item";
 import style from "./Products.module.scss";
+import { Product } from "../../models/product";
 
 export const Products = () => {
   const products: Product[] = [

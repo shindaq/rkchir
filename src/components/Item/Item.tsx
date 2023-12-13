@@ -1,8 +1,7 @@
-import { Button, Expand, Island, Text } from "@adev/ui-kit";
+import { Button, Island, Text } from "@adev/ui-kit";
 import { Product } from "../../models/product";
 import style from "./Item.module.scss";
 import { SupermarketTrolleyMIcon } from "@alfalab/icons-glyph/SupermarketTrolleyMIcon";
-import React from "react";
 
 interface ItemProps {
   item: Product;
@@ -43,20 +42,6 @@ export const Item = ({ item }: ItemProps) => {
               view="clear"
               contentLeft={<SupermarketTrolleyMIcon />}
             ></Button>
-            <div>
-              <Button onClick={function noRefCheck() {}}>Описание</Button>
-              <Expand>
-                <div>
-                  <React.Fragment key=".0">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aspernatur consequatur dicta earum enim, fugiat hic impedit
-                    ipsam ipsum itaque laudantium modi nihil numquam, omnis,
-                    perferendis quasi recusandae reprehenderit temporibus
-                    voluptates!
-                  </React.Fragment>
-                </div>
-              </Expand>
-            </div>
           </div>
         </div>
       </Island>

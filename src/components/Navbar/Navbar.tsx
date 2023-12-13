@@ -5,7 +5,6 @@ import { ClockRepeatCcwLineMIcon } from "@alfalab/icons-glyph/ClockRepeatCcwLine
 import { BasketLineMIcon } from "@alfalab/icons-glyph/BasketLineMIcon";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { Link } from "react-router-dom";
-import { Contacts } from "../Contacts/Contacts";
 
 export const Navbar = () => {
   const user = JSON.parse(window.localStorage.getItem("authFormData") ?? "{}");

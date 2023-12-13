@@ -1,4 +1,4 @@
-import { Button, Expand, Input, Island } from "@adev/ui-kit";
+import { Button, Input, Island } from "@adev/ui-kit";
 import { Navbar } from "../../components/Navbar/Navbar";
 import style from "./Authorization.module.scss";
 import { useState } from "react";
