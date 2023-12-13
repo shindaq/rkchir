@@ -3,6 +3,7 @@ import { Navbar } from "../../components/Navbar/Navbar";
 import style from "./Authorization.module.scss";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Contacts } from "../../components/Contacts/Contacts";
 
 interface AuthorizationForm {
   name: string;
@@ -43,6 +44,7 @@ export const Authorization = () => {
           </Button>
         </form>
       </Island>
+      <Contacts></Contacts>
     </>
   );
 };
